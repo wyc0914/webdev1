@@ -1,0 +1,57 @@
+html {
+    height: 100%;
+    margin: 0px;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+}
+
+h2 {
+    margin: 0px;
+}
+
+a {
+    margin-top: 10px;
+}
+
+button {
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero {
+    margin: 0 auto;
+    text-align: center;
+
+    background-color: #0cbaba;
+    height: 100%;
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    padding: 5px 10px;
+    background-color: #00ffffac;
+    border-radius: 10px;
+}
+
+.btn:hover{
+    background-color: #00ffff;
+}
+
+.content-img {
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+}
